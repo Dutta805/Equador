@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eqador</title>
+        <link rel="icon" type="image/png" href="logo.png" />
+     <!--<script src="jquery-3.2.0.js">-->
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"> 
+            </script>
+        <link rel="stylesheet" href="css/payment.css"/>
+</head>
+<body>
+  <script>
+      $('document').ready(function(){
+          $('input[type="submit"]').css('background-color','darkpink');
+      });
+      </script>
+    <div id="header">
+        <ul>
+            <li><a href="index.html"><img src="bw-home.png"/></a></li>
+            <li><a href="#">movies</a></li>
+            <li><a href="#">reviews</a></li>
+            <li><a href="#">trailers & videos</a></li>
+            <li><a href="#">entertainment news</a></li>
+            </ul>
+            
+        <ul class="nav">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>                       
+            <li><a href="#">offers</a></li>
+            <li><a href="#">support</a></li>
+            <li id="search"><form method="get"><input type="text" name="s_txt" id="s_txt" placeholder="Select location" />
+                <a href="#"><input type="button" name="s_button" id="s_button" /></a>
+                </form></li>
+            </ul>
+        </div>
+            <div id="logobar">
+                <div id="logo"><img src="logo2.png" alt="" /></div>
+                <p>quador</p>
+                <select>
+                <option value="a">english</option>
+                    <option value="a">hindi</option>
+                    <option value="a">telegu</option>
+                    <option value="a">Punjabi</option>
+                </select>
+            </div>
+            <div id="offers">
+            <p><b>Exclusive Offers!!</b></p>
+            <img id="hline" src="hline1.png">
+            <br/>
+            <a href="#"><img id="offer" src="eid-movie-ticket-offers-2016.png" /></a>
+            <a href="#"><img id="offer" src="paytm-offer-on-movies-tickets-.png" /></a>
+            <a href="#"><img id="offer" src="images.jpg" /></a>
+            <a href="#"><img id="offer" src="gillette-offers.png" /></a>
+        </div>
+<div id="box">
+        <div id="news" >
+            <div id="in" style="background-color: lightcoral ; border-radius: 25px" ><center><h3 style="font-family: cursive"><b>TICKET DETAILS </b></h3></center></div>
+            <br/><br/> <br/>
+            <dl style="border: 2px solid black">
+                <b> Ticket Cost </b> &nbsp  &nbsp  &nbsp   520.00
+                <br/> <br/> <br/> 
+                <b>Service Fee</b>   &nbsp  &nbsp  &nbsp  33.71@INR 15.00/- per tkt 
+                <br/>   &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  +12.36% Ser. Tax on 
+                <br/>   &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  Service fee.  
+                <br/>
+                <b>3D Charges</b>  &nbsp  &nbsp  &nbsp  0.00     
+                <br/>   <br/> <br/>
+                &emsp;&emsp;&emsp; 
+                <b>TOTAL AMOUNT </b> &emsp;&emsp; 553.71 INR
+            </dl>
+            </div>
+            <div id="trailers">
+            <div id="in" style="background-color: lightcoral ; border-radius: 25px" ><p><b>YOUR DETAILS</b></p></div> 
+            <br/> <br/> <br/>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            NAME &emsp; &emsp; &emsp; &nbsp
+            <input type="text" id="name" name="name" maxlength="20"/ ><br/> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            CONTACT &emsp; &emsp;
+            <input type="text" name="contact" maxlength="10"/>
+            <br/><br/><br/>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="checkbox" name="check" /><b> Keep me updated with latest offers and promotions</b>  
+            <div id = "inside">
+               <div id="in" style="background-color: lightcoral ;border-radius: 25px"> <p><b>PAYMENT GATEWAY </b></p></div><br/> <br/> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <select style="width: 350px" name="payment options">
+                    <option value="a">Debit Card</option>
+                    <option value="a">Credit Card</option>
+                    <option value="a">Net Banking</option>
+                </select>
+                <br/> <br/> &emsp; &emsp;
+                <input type="checkbox" name="check"/><b> I have read,understood and agreed to the <u>RULES & REGULATIONS & HOW TO COLLECT THE TICKETS</u></b>
+                <br/> <br/> <br/>
+                <div >
+                <input type="submit" name="submit" value="Proceed" id="btn" />
+                <div/>
+            </div>
+            </div>
+             
+</body>
+</html>

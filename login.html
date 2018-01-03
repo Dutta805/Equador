@@ -1,0 +1,253 @@
+<html>
+<head>
+<title>Equador</title>
+<link rel="icon" type="image/png" href="logo.png" />
+<style>
+body{
+margin: 0 auto;
+background-image: url("technical/Movie-time-design-elements-vector-backgrounds-03.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+    
+#header
+{
+    height: 60px;
+    width: 130%;
+    background-color: crimson;
+    top: -8px;
+    margin-left: -20px;
+    position: fixed;
+}
+
+#header ul li
+{
+    margin-left: -40px;
+    list-style: none;
+    display: inline;    
+    padding: 30px;
+}
+
+#header a
+{
+    text-decoration: none;
+    color: azure;
+    font-family: cursive;
+    
+}
+
+#header a:hover
+{
+    color: #cc9900;
+    transition: all 0.45s;
+}
+
+.nav
+{
+    margin-top: -75px;
+    margin-left: 735px;
+}
+.nav li
+{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#search
+{
+    width: 350px;
+    margin: 4px;
+}
+
+#s_txt
+{
+    margin-top: -10px;
+     width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 10px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #ffffff;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+    font-family: cursive;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#s_button
+{
+    margin-top: -10px;
+     border: 0 none;
+    background: #99cc00 url("locat.png") center no-repeat;
+    width: 30px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#logobar
+{
+    margin-left: -9px;
+    top: 52px;
+    height: 80px;
+    width: 130%;
+    background-color: #cccc00;
+    opacity: 0.8;
+    position: fixed;
+    
+}
+
+#logo
+{
+    height: 80px;
+    width: 60px;
+    position: fixed;
+}
+
+#logo img
+{
+    margin-top: -3px;
+    position: fixed;
+}
+
+#logobar p
+{
+    font-family: fantasy, cursive;
+    font-size: 40px;
+    color: #660033;
+    height: 40px;
+    width: 120px;
+    margin-top: 37px;
+    margin-left: 65px; 
+    position: fixed;
+}
+
+#logobar select
+{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 1250px;
+    position: fixed;
+    margin-top: 40px;
+}
+    
+.container{
+width: 500px;
+height: 400px;
+text-align: center;
+background-color: rgba(52, 73, 94, 0.7);
+border-radius: 4px;
+margin: 0 auto;
+margin-top:250px;
+}
+.container img{
+width: 120px;
+height: 120px;
+margin-top: -60px;
+margin-bottom: 30px;
+}
+
+input[type="text"],input[type="password"]{
+height: 45px;
+width: 300px;
+font-size:18px;
+border: none;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+padding-left: 30px;
+}
+
+.form-input::before{
+content: "";
+position: absolute;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size:35px;
+}
+
+.form-input:last-child::before{
+content: "\f023";
+}
+
+.btn-login{
+height: 50px;
+width:90px;
+padding 15px 25px;
+color: #fff;
+border-radius: 4px;
+border: none;
+background-color: #2ECC71;
+border-bottom: 4px solid #27AE60;
+margin-bottom: 20px;
+}
+
+a{
+color: #fff;
+}
+
+</style>
+</head>
+
+    
+    <body>
+        <div id="header">
+        <ul>
+            <li><a href="index.html"><img src="bw-home.png"/></a></li>
+            <li><a href="#">movies</a></li>
+            <li><a href="#">reviews</a></li>
+            <li><a href="#">trailers & videos</a></li>
+            <li><a href="#">entertainment news</a></li>
+            </ul>
+            
+        <ul class="nav">
+            <li><a href="#">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>                       
+            <li><a href="#">offers</a></li>
+            <li><a href="#">support</a></li>
+            <li id="search"><form method="get"><input type="text" name="s_txt" id="s_txt" placeholder="Select location" />
+                <a href="#"><input type="button" name="s_button" id="s_button" /></a>
+                </form></li>
+            </ul>
+        </div>
+            <div id="logobar">
+                <div id="logo"><img src="logo2.png" alt="" /></div>
+                <p>quador</p>
+                <select>
+                <option value="a">english</option>
+                    <option value="a">hindi</option>
+                    <option value="a">telegu</option>
+                    <option value="a">Punjabi</option>
+                </select>
+            </div>
+        
+        
+        
+<div class="container">
+<img src="technical/Contact-icon.png">
+<form>
+<div class="form-input">
+<input type="text" name="Username" placeholder="Enter Username" maxlength="20" required="required">
+</div>
+<div class="form-input">
+<input type="password" name="password" placeholder="Enter Password" maxlength="10" required="required">
+</div>
+<input type="submit" name="submit" value="LOGIN" class="btn-login">
+<br/>
+<a href="#">Fogot password?</a>
+</form>
+</div>
+</body>
+</html>

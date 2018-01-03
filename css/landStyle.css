@@ -1,0 +1,435 @@
+body
+{
+height: 2140px;
+width: 100%;
+margin-left: 0px;
+margin-top: 52px;
+    background-color: antiquewhite;
+}
+
+#header
+{
+    height: 60px;
+    width: 130%;
+    background-color: crimson;
+    top: -8px;
+    margin-left: -20px;
+    position: fixed;
+}
+
+#header ul li
+{
+    margin-left: -40px;
+    list-style: none;
+    display: inline;    
+    padding: 30px;
+}
+
+#header a
+{
+    text-decoration: none;
+    color: azure;
+    font-family: cursive;
+    
+}
+
+#header a:hover
+{
+    color: #cc9900;
+    transition: all 0.45s;
+}
+
+.nav
+{
+    margin-top: -75px;
+    margin-left: 735px;
+}
+.nav li
+{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#search
+{
+    width: 350px;
+    margin: 4px;
+}
+
+#s_txt
+{
+    margin-top: -10px;
+     width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 10px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #ffffff;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+    font-family: cursive;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#s_button
+{
+    margin-top: -10px;
+     border: 0 none;
+    background: #99cc00 url("locat.png") center no-repeat;
+    width: 30px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#logobar
+{
+    margin-left: -9px;
+    top: 52px;
+    height: 80px;
+    width: 130%;
+    background-color: #cccc00;
+    opacity: 0.8;
+    position: fixed;
+    
+}
+
+#logo
+{
+    height: 80px;
+    width: 60px;
+    position: fixed;
+}
+
+#logo img
+{
+    margin-top: -3px;
+    position: fixed;
+}
+
+#logobar p
+{
+    font-family: fantasy, cursive;
+    font-size: 40px;
+    color: #660033;
+    height: 40px;
+    width: 120px;
+    margin-top: 37px;
+    margin-left: 65px; 
+    position: fixed;
+}
+
+#logobar select
+{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 1250px;
+    position: fixed;
+    margin-top: 40px;
+}
+
+#clip
+{
+    height: 800px;
+    width: 100%;
+}
+
+#clip img
+{
+    height: 300px;
+    width: 200px;
+    margin-top: -150px;
+    margin-left: 20px;
+}
+
+#clip p
+{
+    width: 150px;
+    height: 30px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: cornsilk;
+    margin-top: -300px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+#clip p1
+{
+    width: 150px;
+    height: 80px;
+    margin-left: 266px;
+    font-family: monospace;
+    font-size: 16px;
+    color: cornsilk;
+}
+
+#clip p2
+{
+    margin-left: 265px;
+}
+
+#clip p2, p3, p4
+{
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid white;
+    color: cornsilk;
+}
+
+#details
+{
+    height: 20px;
+    width: 300px;
+    margin-left: 248px;
+    margin-top: 13px;
+    color: cornsilk;
+    font-family:sans-serif;
+}
+
+#details img
+{
+    background-color: cornsilk;
+    height: 18px;
+    width: 18px;
+}
+
+#summary
+{
+    height: 30px;
+    width: 200px;
+    margin-left: 300px;
+}
+
+#summary h1
+{
+    font-family: inherit;
+}
+
+#synop
+{
+    width: 800px;
+    height: 100px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+#cast
+{
+    height: 200px;
+    width: 800px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+
+#cast img
+{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#crew h3
+{
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+}
+
+#crew ul
+{
+    margin-left: -50px;
+}
+#crew ul li
+{
+    display: inline;
+    padding: 4px;
+    
+}
+
+
+#btnSeating
+{
+    margin-top: 300px;
+    margin-left: 320px;
+    background-color: darkorange;
+}
+.messagePanel { border: solid 1px black; width: 600px; height: 330px; margin-left: 500px;}
+
+.seat {
+    
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: solid 1px black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;    
+}
+
+.clearfix { clear: both;}
+.available {
+    background-color: #96c131;
+}
+
+.hovering{
+	background-color: #ae59b3;
+}
+.selected{
+    background-color: red;
+}
+
+#clip a
+{
+    margin-left: 500px;
+}
+
+#clip a input
+{
+    width: 323px;
+    height: 30px;
+    font-family: cursive;
+    background-color: firebrick;
+    color: #ffffff;
+    cursor: pointer;    
+}
+
+#footer
+{
+    height: 400px;
+    width: 100%;
+    margin-top: 900px;
+    background-color: #ccccb3;
+}
+
+#support
+{
+    height: 200px;
+    width: 442px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 5px;
+}
+
+#support img
+{
+    margin-left: 170px;
+}
+
+#support img:hover
+{
+    background-color: azure;
+    transition: all 0.45s;
+    cursor: pointer;
+}
+
+#refund
+{
+    height: 200px;
+    width: 442px;
+    border: 2px solid black;
+    float: left;
+}
+
+#refund img
+{
+    margin-left: 180px;
+}
+
+#refund img:hover
+{
+    background-color: azure;
+    transition: all 0.45s;
+    cursor: pointer;
+}
+
+#newsL
+{
+   height: 200px;
+    width: 442px;
+    border: 2px solid black;
+    float: left; 
+}
+
+#newsL img
+{
+    margin-left: 180px;
+}
+
+#newsL img:hover
+{
+    background-color: azure;
+    transition: all 0.45s;
+    cursor: pointer;
+}
+
+#note
+{
+    height: 30px;
+    width: 220px;
+    margin-left: 120px;
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 16px;
+}
+#noti p
+{
+    height: 20px;
+    width: 100px;
+    margin-top: 220px;
+    margin-left: 627px;
+    font-family: cursive;
+    text-align: center;
+    background-color: #ffffff;
+     border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#noti ul
+{
+    margin-left: 415px;
+    margin-top:3 0px;
+    width: 500px;
+}
+#noti ul li
+{
+    display: inline;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+#bb
+{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#bb:hover
+{
+    background-color: cornsilk;;
+    transition: all 0.45s;
+}

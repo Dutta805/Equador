@@ -1,0 +1,228 @@
+body{
+margin: 0 auto;
+background-image: url("technical/Film.-Movie-clapper-and-film-reel-on-a-wooden-background-WW-56277468.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#header
+{
+    height: 60px;
+    width: 130%;
+    background-color: crimson;
+    top: -8px;
+    margin-left: -20px;
+    position: fixed;
+}
+
+#header ul li
+{
+    margin-left: -40px;
+    list-style: none;
+    display: inline;    
+    padding: 30px;
+}
+
+#header a
+{
+    text-decoration: none;
+    color: azure;
+    font-family: cursive;
+    
+}
+
+#header a:hover
+{
+    color: #cc9900;
+    transition: all 0.45s;
+}
+
+.nav
+{
+    margin-top: -75px;
+    margin-left: 735px;
+}
+.nav li
+{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#search
+{
+    width: 350px;
+    margin: 4px;
+}
+
+#s_txt
+{
+    margin-top: -10px;
+     width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 10px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #ffffff;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+    font-family: cursive;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#s_button
+{
+    margin-top: -10px;
+     border: 0 none;
+    background: #99cc00 url("locat.png") center no-repeat;
+    width: 30px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#logobar
+{
+    margin-left: -9px;
+    top: 52px;
+    height: 80px;
+    width: 130%;
+    background-color: #cccc00;
+    opacity: 0.8;
+    position: fixed;
+    
+}
+
+#logo
+{
+    height: 80px;
+    width: 60px;
+    position: fixed;
+}
+
+#logo img
+{
+    margin-top: -3px;
+    position: fixed;
+}
+
+#logobar p
+{
+    font-family: fantasy, cursive;
+    font-size: 40px;
+    color: #660033;
+    height: 40px;
+    width: 120px;
+    margin-top: 37px;
+    margin-left: 65px; 
+    position: fixed;
+}
+
+#logobar select
+{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 1250px;
+    position: fixed;
+    margin-top: 40px;
+}
+
+.container{
+width: 800px;
+height: 690px;
+text-align: center;
+background-color: rgba(52, 73, 94, 0.7);
+border-radius: 4px;
+margin: 0 auto;
+margin-top:220px;
+}
+.container img{
+width: 120px;
+height: 120px;
+margin-top: -60px;
+margin-bottom: 30px;
+}
+
+input[type="text"],input[type="password"]{
+height: 25px;
+width: 300px;
+font-size:15px;
+border: none;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+padding-left: 30px;
+}
+
+.form-input::before{
+content: "";
+position: absolute;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size:15px;
+}
+
+.form-input:last-child::before{
+content: "\f023";
+}
+
+a{
+color: #fff;
+}
+
+#dob p
+{
+    font-size: 20px;
+    color: coral;
+    font-family: cursive,fantasy;
+    text-align: left;
+    margin-left: 200;
+}
+
+#dob select{
+    padding: 4px;
+    margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+padding-left: 30px;
+}
+
+#password p
+{
+      font-size: 20px;
+    color: coral;
+    font-family: cursive,fantasy;
+    text-align: left;
+    margin-left: 200;
+}
+
+.btn-signup{
+height: 50px;
+width:90px;
+padding 15px 25px;
+color: #fff;
+border-radius: 4px;
+border: none;
+background-color: #2ECC71;
+border-bottom: 4px solid #27AE60;
+margin-bottom: 20px;
+}
+
+#contain{
+    margin-top: 600px;
+    margin: 20px;
+    width: 400px;
+    height: 8px;
+    position: relative;
+}

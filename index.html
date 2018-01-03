@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Eqador</title>
+        <link rel="icon" type="image/png" href="logo.png" />
+        <link rel="stylesheet" href="css/ecuador.css"/>
+<script>
+    function slideshow()
+    {
+      setInterval(playSlides,3000);  
+    }
+    
+    function playSlides()
+    {
+        var imgSrc = document.getElementById("img").getAttribute("src");    
+        var curImg = imgSrc.substring(imgSrc.lastIndexOf("/") + 1, imgSrc.lastIndexOf("/") + 2);
+        
+        if(curImg == 4)
+            {
+                curImg = 0;
+            }
+        document.getElementById("img").setAttribute("src", "images/" + (Number(curImg) + 1) + ".jpg");
+    }
+    
+        </script>
+
+    </head>
+    <body onload="slideshow()">
+        <div id="header">
+        <ul>
+            <li><a href="index.html"><img src="bw-home.png"/></a></li>
+            <li><a href="#">movies</a></li>
+            <li><a href="#">reviews</a></li>
+            <li><a href="#">trailers & videos</a></li>
+            <li><a href="#">entertainment news</a></li>
+            </ul>
+            
+        <ul class="nav">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>                       
+            <li><a href="#">offers</a></li>
+            <li><a href="#">support</a></li>
+            <li id="search"><form method="get"><input type="text" name="s_txt" id="s_txt" placeholder="Select location" />
+                <a href="#"><input type="button" name="s_button" id="s_button" /></a>
+                </form></li>
+            </ul>
+        </div>
+            <div id="logobar">
+                <div id="logo"><img src="logo2.png" alt="" /></div>
+                <p>quador</p>
+                <select>
+                <option value="a">english</option>
+                    <option value="a">hindi</option>
+                    <option value="a">telegu</option>
+                    <option value="a">Punjabi</option>
+                </select>
+            </div>
+        <img id="img" src="images/1.jpg">
+        
+        <div id="offers">
+            <p><b>Exclusive Offers!!</b></p>
+            <img id="hline" src="hline1.png">
+            <br/>
+            <a href="#"><img id="offer" src="eid-movie-ticket-offers-2016.png" /></a>
+            <a href="#"><img id="offer" src="paytm-offer-on-movies-tickets-.png" /></a>
+            <a href="#"><img id="offer" src="images.jpg" /></a>
+            <a href="#"><img id="offer" src="gillette-offers.png" /></a>
+        </div>
+        <br/>
+        <div id="NowShow">
+        <p>NOW SHOWING</p>
+            <br/>
+            <div id="div1">
+            <img src="nowshow/john_wick_chapter_two_ver6.png" alt=" "/>
+                <a href="landing.html"><input type="button" value="Book Now" class="btnDiv"/></a>
+            </div>
+            <div id="div2">
+            <img src="nowshow/kong-skull-island-poster-full.png" alt=" "/>
+                <input type="button" value="Book Now" class="btnDiv"/>
+        </div>
+            <div id="div3">
+            <img src="nowshow/loganposter2.png" alt=" "/>
+                <input type="button" value="Book Now" class="btnDiv"/>
+            </div>
+            <div id="div4">
+            <img src="nowshow/poster-2-bkd-1.png" alt=" "/>
+                <input type="button" value="Book Now" class="btnDiv"/>
+            </div>
+            <div id="div5">
+            <img src="nowshow/phillauri2poster.png" alt=" "/>
+                <input type="button" value="Book Now" class="btnDiv"/>
+            </div>
+        </div>
+        <div id="box">
+        <div id="news">
+            <p>Top Movies</p>
+            <br/>
+            <dl>
+                <li><img src="star.png">     <b>8.6</b>     <a href="#"><b>LOGAN (2017)</b></a></li>
+                <br/>
+                <li><img src="star.png">     <b>8.3</b>     <a href="#"><b>Get Out (2017)</b></a></li>
+                <br/>
+                <li><img src="star.png">     <b>8.1</b>     <a href="#"><b>John Wick: Chapter 2 (2017)</b></a></li>
+                <br/>
+                <li><img src="star.png">     <b>7.1</b>     <a href="#"><b>KONG: Skull Island</b></a></li>
+                <br/>
+                <li><img src="star.png">     <b>6.1</b>     <a href="#"><b>Beauty and The Beast (2017)</b></a></li>
+                <br/>
+                <li><img src="star.png">     <b>6.5</b>     <a href="#"><b>Badrinath ki Dulhania</b></a></li>
+            </dl>
+            </div>
+        <div id="trailers">
+            <p>Trailers of Upcoming Movies</p>
+            <br/>
+            <iframe id="vid1" src="https://www.youtube.com/embed/9GvX2uexGkA"></iframe>
+            <iframe id="vid2" src="https://www.youtube.com/embed/44LdLqgOpjo"></iframe>
+            <iframe id="vid3" src="https://www.youtube.com/embed/AntcyqJ6brc"></iframe>
+            <br/><br/>
+            <iframe id="vid4" src="https://www.youtube.com/embed/ztX-iGlZ_Ug"></iframe>
+            <iframe id="vid5" src="https://www.youtube.com/embed/VTs3UEvZdOU"></iframe>
+            <iframe id="vid5" src="https://www.youtube.com/embed/4luDtkC3Oy0"></iframe>
+            <br/><br/>
+            <input type="button" id="btn" value="More"/>
+            </div>
+        </div>
+        <br/>
+        <div id="footer">
+            <div id="support">
+                <br/>
+                <img src="technical/man-contact-512.png" alt=" "/>
+                <p id="note">24*7 Customer Support</p>
+            </div>
+            <div id="refund">
+                <br/>
+                <img src="technical/44-512.png" alt=" "/> 
+                <p id="note">Ticket Cancellation & Refund</p>
+            </div>
+            <div id="newsL">
+                <br/>
+                <img src="technical/39-512.png" alt=" "/>
+                <p id="note">Subscribe to Newsletters</p>
+            </div>
+            <br/>
+            <div id="noti">
+                <br/>
+                <p>Follow Us</p>
+            <ul>
+                <li><a href="#"><img id="bb" src="technical/facebook-dark.png" alt=" "/></a></li>
+                <li><a href="#"><img id="bb" src="technical/twitter-4-512.png" alt=" "/></a></li>
+                <li><a href="#"><img id="bb" src="technical/trans-insta.png" alt=" "/></a></li>
+                <li><a href="#"><img id="bb" src="technical/dfc59f_867ccca039e04bd7bf657da.png" alt=" "/></a></li>
+            </ul>
+            </div>
+        </div>
+    </body>
+</html>

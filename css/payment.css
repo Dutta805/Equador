@@ -1,0 +1,267 @@
+body
+{
+height: 800px;
+width: 100%;
+margin-left: 0px;
+margin-top: 52px;
+}
+
+#header
+{
+    height: 60px;
+    width: 130%;
+    background-color: crimson;
+    top: -8px;
+    margin-left: -20px;
+    position: fixed;
+}
+
+#header ul li
+{
+    margin-left: -40px;
+    list-style: none;
+    display: inline;    
+    padding: 30px;
+}
+
+#header a
+{
+    text-decoration: none;
+    color: azure;
+    font-family: cursive;
+    
+}
+
+#header a:hover
+{
+    color: #cc9900;
+    transition: all 0.45s;
+}
+
+.nav
+{
+    margin-top: -75px;
+    margin-left: 735px;
+}
+.nav li
+{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#search
+{
+    width: 350px;
+    margin: 4px;
+}
+
+#s_txt
+{
+    margin-top: -10px;
+     width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 10px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #ffffff;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+    font-family: cursive;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#s_button
+{
+    margin-top: -10px;
+     border: 0 none;
+    background: #99cc00 url("locat.png") center no-repeat;
+    width: 30px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#logobar
+{
+    margin-left: -9px;
+    top: 52px;
+    height: 80px;
+    width: 130%;
+    background-color: #cccc00;
+    opacity: 0.8;
+    position: fixed;
+    
+}
+
+#logo
+{
+    height: 80px;
+    width: 60px;
+    position: fixed;
+}
+
+#logo img
+{
+    margin-top: -3px;
+    position: fixed;
+}
+
+#logobar p
+{
+    font-family: fantasy, cursive;
+    font-size: 40px;
+    color: #660033;
+    height: 40px;
+    width: 120px;
+    margin-top: 37px;
+    margin-left: 65px; 
+    position: fixed;
+}
+
+#logobar select
+{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 1250px;
+    position: fixed;
+    margin-top: 40px;
+}
+
+
+#offers
+{
+    margin-top: 30px;
+    height: 320px;
+    width: 100%;
+}
+
+#offers p
+{
+    height: 20px;
+    width: 200px;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 600px;
+    color: #ff3300;
+}
+
+#hline
+{
+    margin-top: -40px;
+    height: 80px;
+    width: 400px;
+    margin-left: 500px;
+}
+
+#offer
+{
+    padding: 10px;
+}
+
+#box
+{
+height: 500px;
+width: 100%;
+    margin-top: 30px;
+background-color: #e6e6e6;
+}
+
+#news
+{
+    height: 500px;
+    width: 400px;
+    margin-left: 2px;
+    border: 2px solid;
+    border-bottom-color: firebrick;
+    border-left-color: firebrick;
+    border-top-color: firebrick;
+    border-right-color: firebrick;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+#news p
+{
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    font-family:cursive;
+    color: solid black;
+}
+
+#news dl
+{
+    padding: 10px;
+}
+
+#news dl li
+{
+    padding: 10px;
+    background-color: azure;
+    opacity: 0.5;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#news dl li a
+{
+    text-decoration:none;
+}
+
+#trailers
+{
+    margin-top: -510px;
+    height: 500px;
+    float: right;
+    width: 920px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-bottom-color:darkslateblue;
+    border-left-color:darkslateblue;
+    border-right-color: darkslateblue;
+    border-top-color: darkslateblue;
+    border-width: 5px;
+}
+
+#trailers p
+{
+    height: 30px;
+    width: 280px;
+    margin-left: 320px;
+    font-family: cursive;
+    font-size: 20px;
+    color: solid black;
+    
+}
+
+#vid1
+{
+    margin-left: 0px;
+}
+
+#btn
+{
+    height: 50px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 400px;
+    background-color: #99cc00;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
